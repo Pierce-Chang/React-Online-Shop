@@ -9,10 +9,10 @@ function App() {
     <React.Fragment className="App">
       <Navbar />
       <div className='product-container'>
-        <Product title="Bowl"/>
-        <Product title="Tomaten"/>
-        <Product title="Gurken"/>
-        <Product title="Paprika"/>
+        <Product image="bowl.jpg" title="Healthy Bowl" description="Füge Healthy Bowl zu deinem Warenkorb hinzu"/>
+        <Product image="avocado_toast.jpg" title="Avocado Toast" description="Füge Avocado Toast zu deinem Warenkorb hinzu"/>
+        <Product image="frensh_toast.jpg" title="Frensh Toast" description="Füge Avocado Toast zu deinem Warenkorb hinzu"/>
+        <Product image="pancakes.jpg" title="Pancakes" description="Füge Pancakes zu deinem Warenkorb hinzu"/>
       </div>
     </React.Fragment>
   );
