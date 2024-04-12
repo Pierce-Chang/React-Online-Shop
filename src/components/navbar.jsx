@@ -6,7 +6,8 @@ class Navbar extends Component {
     render() {
         return <nav className="navbar bg-body-tertiary">
             <div className="container-fluid">
-                <a className="navbar-brand" href="/">Navbar</a>
+                <img className='logo' src="/assets/img/schmackofatzo.png" alt="" />
+                <a className="navbar-brand" href="/">Lieferspando</a>
             </div>
         </nav>
     }
