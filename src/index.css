@@ -35,6 +35,12 @@
     text-underline-offset: 2px;
 }
 
+.card-img-top {
+    height: 400px;
+    object-fit: cover;
+    object-position: center;
+}
+
 .logo-container {
     display: flex;
     gap: 4px;
