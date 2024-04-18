@@ -1,5 +1,6 @@
 .product-container {
     display: flex;
+    flex-direction: column;
     gap: 32px;
     padding: 0 32px;
 }
@@ -36,6 +37,7 @@
 }
 
 .card-img-top {
+    width: 70vw;
     height: 400px;
     object-fit: cover;
     object-position: center;
@@ -46,6 +48,12 @@
     gap: 4px;
     align-items: center;
     font-weight: 700;
+}
+
+.shopping-card h2 {
+    text-align: center;
+    background-color: rgba(13,110,253,0.4);
+    border-radius: 10px;
 }
 
 @media (max-width: 850px){
